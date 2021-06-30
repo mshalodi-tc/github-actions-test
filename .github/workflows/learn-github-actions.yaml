@@ -8,5 +8,8 @@ jobs:
       - uses: actions/setup-node@v1
       - run: npm install -g bats
       - run: bats -v
+  hello-world:
+    runs-on: ubuntu-latest
+    steps:
       - run: echo "hello world"
       - run: bash cicd/hello_world2.sh

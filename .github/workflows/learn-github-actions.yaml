@@ -13,7 +13,7 @@ jobs:
     steps:
       - run: echo "hello world"
       - run: pwd
-  hello-world:
+  hello-world2:
     runs-on: ubuntu-latest
     steps:
       - run: echo "hello world2"

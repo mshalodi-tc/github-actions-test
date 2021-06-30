@@ -18,4 +18,4 @@ jobs:
     steps:
       - run: echo "hello world2"
       - shell: bash
-        run: ./.github/scripts/hello_world2.sh
+        run: cicd/hello_world2.sh

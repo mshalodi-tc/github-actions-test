@@ -7,8 +7,7 @@ jobs:
       - uses: actions/checkout@v2
       - run: echo "hello world2"
       - name: most important step
-        shell: bash
-        run: ./cicd/hello_world2.sh
+        run: bash ./cicd/hello_world2.sh
   hello-world-2:
     runs-on: ubuntu-latest
     steps:

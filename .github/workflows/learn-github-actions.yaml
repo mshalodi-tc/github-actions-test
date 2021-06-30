@@ -11,8 +11,9 @@ jobs:
   hello-world:
     runs-on: ubuntu-latest
     steps:
-      - run: ls
-      - run: pwd
+      - run: |
+        ls
+        pwd
   hello-world2:
     runs-on: ubuntu-latest
     steps:

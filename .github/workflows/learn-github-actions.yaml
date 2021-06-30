@@ -18,5 +18,4 @@ jobs:
     steps:
       - run: echo "hello world2"
       - name: most important step
-        run: bash hello_world2.sh
-        working-directory: ./cicd
+        run: bash ./cicd/hello_world2.sh

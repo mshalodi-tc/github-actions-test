@@ -13,3 +13,9 @@ jobs:
     steps:
       - run: echo "hello world"
       - run: pwd
+  hello-world:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "hello world2"
+      - shell: bash
+        run: ./.github/scripts/hello_world2.sh

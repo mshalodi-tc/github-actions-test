@@ -8,3 +8,5 @@ jobs:
       - uses: actions/setup-node@v1
       - run: npm install -g bats
       - run: bats -v
+      - run: echo "hello world"
+      - run: bash cicd/hello_world2.sh

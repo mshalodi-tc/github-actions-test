@@ -12,4 +12,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "hello world"
-      - run: bash cicd/hello_world2.sh
+      - shell: bash
+        run: cicd/hello_world2.sh

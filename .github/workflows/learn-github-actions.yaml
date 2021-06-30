@@ -13,4 +13,4 @@ jobs:
     steps:
       - run: echo "hello world"
       - shell: bash
-        run: cicd/hello_world2.sh
+        run: ./cicd/hello_world2.sh

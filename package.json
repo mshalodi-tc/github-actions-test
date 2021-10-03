@@ -1,10 +1,10 @@
 {
-  "name": "@mshalodi/github-actions-test",
+  "name": "@mshalodi-tc/github-actions-test",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "publishConfig": {
-    "@mshalodi:registry": "https://npm.pkg.github.com"
+    "@mshalodi-tc:registry": "https://npm.pkg.github.com"
   },
   "scripts": {
     "test": "exit 0"

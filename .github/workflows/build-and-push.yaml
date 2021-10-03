@@ -14,7 +14,6 @@ env:
   IMAGE_NAME: ${{ github.repository }}/test_image_here
 
 
-
 jobs:
   build-and-push-image:
     runs-on: ubuntu-latest

@@ -11,7 +11,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: ${{ github.repository }}:test_image_here
+  IMAGE_NAME: ${{ github.repository }}/test_image_here
 
 jobs:
   build-and-push-image:
